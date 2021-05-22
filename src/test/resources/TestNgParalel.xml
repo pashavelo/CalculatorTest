@@ -1,0 +1,92 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Paralel Suite" parallel="methods" thread-count="3">
+    <listeners>
+        <listener class-name="org.example.listeners.TestListeners"></listener>
+    </listeners>
+
+    <test name="Sub Cal Test">
+        <classes>
+            <class name="org.example.tests.SubCalTest"/>
+        </classes>
+    </test>
+    <test name="Sub Cal Test Double">
+        <classes>
+            <class name="org.example.tests.SubCalTestDouble"/>
+        </classes>
+    </test>
+    <test name="Sum Cal Test">
+        <classes>
+            <class name="org.example.tests.SumCalTest"/>
+        </classes>
+    </test>
+    <test name="Sum Cal Test Double">
+        <classes>
+            <class name="org.example.tests.SumCalTestDouble"/>
+        </classes>
+    </test>
+    <test name="Mult Cal Test">
+        <classes>
+            <class name="org.example.tests.MultCalTest"/>
+        </classes>
+    </test>
+    <test name="Mult Cal Test Double">
+        <classes>
+            <class name="org.example.tests.MultCalTestDouble"/>
+        </classes>
+    </test>
+    <test name="Div Cal Test">
+        <classes>
+            <class name="org.example.tests.DivCalTest"/>
+        </classes>
+    </test>
+    <test name="Div Cal Test Double">
+        <classes>
+            <class name="org.example.tests.DivCalTestDouble"/>
+        </classes>
+    </test>
+    <test name="Pow Cal Test Double">
+        <classes>
+            <class name="org.example.tests.PowCalTest"/>
+        </classes>
+    </test>
+    <test name="Sqrt Cal Test Double">
+        <classes>
+            <class name="org.example.tests.SqrtCalTest"/>
+        </classes>
+    </test>
+    <test name="Tg Cal Test Double">
+        <classes>
+            <class name="org.example.tests.TgCalTest"/>
+        </classes>
+    </test>
+    <test name="Ctg Cal Test Double">
+        <classes>
+            <class name="org.example.tests.CtgCalTest"/>
+        </classes>
+    </test>
+    <test name="Cos Cal Test Double">
+        <classes>
+            <class name="org.example.tests.CosCalTest"/>
+        </classes>
+    </test>
+    <test name="Sin Cal Test Double">
+        <classes>
+            <class name="org.example.tests.SinCalTest"/>
+        </classes>
+    </test>
+    <test name="IsPositive test">
+        <classes>
+            <class name="org.example.tests.IsPositiveCalTest"/>
+        </classes>
+    </test>
+    <test name="IsNegative test">
+        <classes>
+            <class name="org.example.tests.IsNegativeCalTest"/>
+        </classes>
+    </test>
+
+
+
+
+
+</suite>
