@@ -7,82 +7,82 @@
 
     <test name="Sub Cal Test">
         <classes>
-            <class name="org.example.tests.SubCalTest"/>
+            <class name="org.example.testsTestNG.SubCalTest"/>
         </classes>
     </test>
     <test name="Sub Cal Test Double">
         <classes>
-            <class name="org.example.tests.SubCalTestDouble"/>
+            <class name="org.example.testsTestNG.SubCalTestDouble"/>
         </classes>
     </test>
     <test name="Sum Cal Test">
         <classes>
-            <class name="org.example.tests.SumCalTest"/>
+            <class name="org.example.testsTestNG.SumCalTest"/>
         </classes>
     </test>
     <test name="Sum Cal Test Double">
         <classes>
-            <class name="org.example.tests.SumCalTestDouble"/>
+            <class name="org.example.testsTestNG.SumCalTestDouble"/>
         </classes>
     </test>
     <test name="Mult Cal Test">
         <classes>
-            <class name="org.example.tests.MultCalTest"/>
+            <class name="org.example.testsTestNG.MultCalTest"/>
         </classes>
     </test>
     <test name="Mult Cal Test Double">
         <classes>
-            <class name="org.example.tests.MultCalTestDouble"/>
+            <class name="org.example.testsTestNG.MultCalTestDouble"/>
         </classes>
     </test>
     <test name="Div Cal Test">
         <classes>
-            <class name="org.example.tests.DivCalTest"/>
+            <class name="org.example.testsTestNG.DivCalTest"/>
         </classes>
     </test>
     <test name="Div Cal Test Double">
         <classes>
-            <class name="org.example.tests.DivCalTestDouble"/>
+            <class name="org.example.testsTestNG.DivCalTestDouble"/>
         </classes>
     </test>
     <test name="Pow Cal Test Double">
         <classes>
-            <class name="org.example.tests.PowCalTest"/>
+            <class name="org.example.testsTestNG.PowCalTest"/>
         </classes>
     </test>
     <test name="Sqrt Cal Test Double">
         <classes>
-            <class name="org.example.tests.SqrtCalTest"/>
+            <class name="org.example.testsTestNG.SqrtCalTest"/>
         </classes>
     </test>
     <test name="Tg Cal Test Double">
         <classes>
-            <class name="org.example.tests.TgCalTest"/>
+            <class name="org.example.testsTestNG.TgCalTest"/>
         </classes>
     </test>
     <test name="Ctg Cal Test Double">
         <classes>
-            <class name="org.example.tests.CtgCalTest"/>
+            <class name="org.example.testsTestNG.CtgCalTest"/>
         </classes>
     </test>
     <test name="Cos Cal Test Double">
         <classes>
-            <class name="org.example.tests.CosCalTest"/>
+            <class name="org.example.testsTestNG.CosCalTest"/>
         </classes>
     </test>
     <test name="Sin Cal Test Double">
         <classes>
-            <class name="org.example.tests.SinCalTest"/>
+            <class name="org.example.testsTestNG.SinCalTest"/>
         </classes>
     </test>
     <test name="IsPositive test">
         <classes>
-            <class name="org.example.tests.IsPositiveCalTest"/>
+            <class name="org.example.testsTestNG.IsPositiveCalTest"/>
         </classes>
     </test>
     <test name="IsNegative test">
         <classes>
-            <class name="org.example.tests.IsNegativeCalTest"/>
+            <class name="org.example.testsTestNG.IsNegativeCalTest"/>
         </classes>
     </test>
 

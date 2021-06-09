@@ -1,4 +1,4 @@
-package org.example.tests;
+package org.example.testsTestNG;
 
 import org.testng.Assert;
 import org.testng.annotations.DataProvider;
@@ -6,8 +6,8 @@ import org.testng.annotations.Test;
 
 public class SumCalTestDouble extends BaseTest{
 
-    @Test(dataProvider = "valuesForSumDoubleTest", groups= {"first"})
-    public void plusTest(double a, double b, double expectedValue){
+    @Test(dataProvider = "valuesForSumDoubleTest", groups = {"first"})
+    public void plusTestDouble(double a, double b, double expectedValue){
         double result = calculator.sum(a, b);
         Assert.assertEquals(result, expectedValue, "Invalid result of sum operation!");
     }
