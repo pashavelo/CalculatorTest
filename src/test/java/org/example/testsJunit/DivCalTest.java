@@ -18,4 +18,5 @@ public class DivCalTest extends BaseTestJunit{
         int i = 4/0;
     }
 
+    // Assert.assertThrow !!!
 }
