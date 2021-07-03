@@ -2,9 +2,7 @@ package org.example.testsJunit;
 
 import com.epam.tat.module4.Calculator;
 import org.junit.After;
-import org.junit.AfterClass;
 import org.junit.Before;
-import org.junit.BeforeClass;
 
 
 public class BaseTestJunit {
