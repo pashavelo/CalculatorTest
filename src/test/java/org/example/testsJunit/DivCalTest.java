@@ -13,9 +13,12 @@ public class DivCalTest extends BaseTestJunit{
         Assert.assertEquals("Invalid result of div operation!",2,result);
     }
 
-    @Test(expected = ArithmeticException.class)
-    public void divTestWithException() throws Exception {
-        int i = 4/0;
+
+    @Test
+    public void divisionByZero() throws Exception {
+        Assert.assertThrows(NumberFormatException.class, ()->calculator.div(4,0));
     }
+
+
 
 }

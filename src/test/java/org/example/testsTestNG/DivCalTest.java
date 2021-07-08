@@ -12,9 +12,9 @@ public class DivCalTest extends BaseTest{
         Assert.assertEquals(result, expectedValue, "Invalid result of div operation!");
     }
 
-    @Test(expectedExceptions = ArithmeticException.class)
+    @Test
     public void divByZero() {
-        long i = 7/0;
+        Assert.assertThrows(NumberFormatException.class, ()-> calculator.div(7,0));
     }
 
     @DataProvider(name = "valuesForDivTest")
