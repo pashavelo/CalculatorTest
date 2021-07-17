@@ -1,4 +1,4 @@
-package org.example.tests;
+package org.example.testsTestNG;
 
 import org.testng.Assert;
 import org.testng.annotations.DataProvider;
@@ -12,9 +12,9 @@ public class DivCalTestDouble extends BaseTest{
         Assert.assertEquals(result, expectedValue, "Invalid result of div operation!");
     }
 
-    @Test(expectedExceptions = ArithmeticException.class)
-    public void divByZero() {
-        double i = 5.44/0;
+    @Test
+    public void divByZeroDouble() {
+        Assert.assertThrows(NumberFormatException.class, ()-> calculator.div(7.52,0));
     }
 
     @DataProvider(name = "valuesForDivDoubleTest")

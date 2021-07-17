@@ -1,4 +1,4 @@
-package org.example.tests;
+package org.example.testsTestNG;
 
 import com.epam.tat.module4.Calculator;
 import org.testng.annotations.AfterClass;

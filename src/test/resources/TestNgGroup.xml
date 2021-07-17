@@ -16,7 +16,7 @@
         </groups>
 
         <classes>
-            <class name = "org.example.tests.SumCalTestDouble" />
+            <class name = "org.example.testsTestNG.SumCalTestDouble" />
         </classes>
 
 
